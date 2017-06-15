@@ -3,26 +3,25 @@
 	margin: 0;
 }
 .login{
-    max-width: 768px;
+    max-width: 570px;
     margin: 0 auto;
     min-width: 320px;
-    min-height: 1000px;
+    min-height: 1060px;
     background-color: #eee;
 }
 .login-title{
 	position: relative;
 	width: 100%;
-	height: 3rem;
-	line-height: 3rem;
+	height: 5.8rem;
+	line-height: 5.8rem;
 	text-align: center;
 	background-color: #fe9494;
-	font-size: 1.2rem;
 	font-family: "Microsoft YaHei";
 	color: #fff;
 }
 .login-navPhoto{
 	float: left;
-	width: 6rem;
+	width: 5rem;
 	box-sizing:border-box;
 }
 .login-navPhoto a{
@@ -30,39 +29,45 @@
     text-decoration: none;
 }
 .login-navPhoto a img:nth-child(1){
-    width: 12%;
-    height: 1.6rem;
+    width: 4%;
+    height: 2.5rem;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
 }
 .login-navPhoto a img:nth-child(2){
-	width: 60%;
-    height: 1.6rem;
+	width: 30%;
+    height: 3.5rem;
+    position: absolute;
+    top: 18%;
+    left: 10%;
 }
 .mine{
-	width: 80%;
-	font-size: 1.4rem;
+	width: 100%;
+	font-size: 2.2rem;
 }
 /*登录背景*/
 .login-bg{
-	float: left;
     width: 100%;
-    box-sizing: border-box;
     position: relative;
 }
 .login-bg img:nth-child(1){
     width: 100%;
     height: auto;
+    display: block;
 }
 .login-bg img:nth-child(2){
-    width: 28%;
+    width: 32%;
     height: auto;
     position: absolute;
-    left: 37%;
+    left: 34%;
     top: 25%;
 }
 /*账号密码输入*/
 .login_input{
     width: 100%;
-    height: 8rem;
+    height: 9rem;
     float: left;
     background: #fff;
     position: relative;
@@ -73,7 +78,7 @@
     border: 2px solid red;
     box-sizing: border-box;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 5%;
     border-top: none;
 }
@@ -81,7 +86,7 @@
     box-sizing: border-box;
     width: 100%;
     height: 1.6rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     position: absolute;
     bottom: 0;
     outline: none;
@@ -93,7 +98,7 @@
     border: 2px solid gray;
     box-sizing: border-box;
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 5%;
     border-top: none;
 }
@@ -101,7 +106,7 @@
     box-sizing: border-box;
     width: 100%;
     height: 1.6rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     position: absolute;
     bottom: 0;
     outline: none;
@@ -110,21 +115,21 @@
 /*登录注册按钮*/
 .twoBtn{
     width: 90%;
-    height: 1.6rem;
+    height: 2.6rem;
     float: left;
     position: relative;
     left: 5%;
-    top: 0.6rem;
+    top: 0.7rem;
 }
 .twoBtn input:nth-child(1){
     float: left;
     box-sizing:border-box;
     width: 49%;
-    height: 1.6rem;
+    height: 2.6rem;
     background-color: #f56177;
     border-color: transparent;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: #fff;
     outline: none;
 }
@@ -132,11 +137,11 @@
     float: right;
     box-sizing:border-box;
     width: 49%;
-    height: 1.6rem;
+    height: 2.6rem;
     background-color: #fff;
     border-color: transparent;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: red;
     outline: none;
 }
@@ -146,7 +151,7 @@
     height: 0.6rem;
     float: left;
     position: relative;
-    top: 1.2rem;
+    top: 1.4rem;
     left: 5%;
 }
 .wangji a{
@@ -157,7 +162,7 @@
     float: right;
     text-align:right;
     color: gray;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 /*一键注册*/
@@ -166,7 +171,7 @@
     height: 4rem;
     float: left;
     position: relative;
-    top: 11rem;
+    top: 9.7rem;
 }
 .allRegist .xian{
     width: 100%;
@@ -174,11 +179,11 @@
     box-sizing: border-box;
 }
 .allRegist .zi{
-    width: 9rem;
+    width: 34%;
     position: absolute;
     left: 32%;
-    top: -0.4rem;
-    font-size: 0.8rem;
+    top: -0.5rem;
+    font-size: 1.2rem;
     text-align: center;
     background-color: #eee;
     color: gray;
@@ -190,35 +195,35 @@
 .allRegist a{
     text-decoration: none;
     color: gray;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 .sian{
-    width: 30%;
-    height: 1.6rem;
+    width: 28%;
+    height: 2.2rem;
     float: left;
     border: 1px solid gray;
     border-radius: 25px 25px 25px 25px;
     text-align: center;
-    line-height: 1.6rem;
+    line-height: 2.2rem;
     box-sizing: border-box;
     padding-left: 9%;
     background: url(../img/icon_sina.png) no-repeat 6%;
     background-color: #fff;
-    background-size: 1rem 1.6rem;
+    background-size: 2rem 2.2rem;
     margin-right: 5%;
 }
 .qq{
     width: 30%;
-    height: 1.6rem;
+    height: 2.2rem;
     border: 1px solid gray;
     border-radius: 25px 25px 25px 25px;
     text-align: center;
-    line-height: 1.6rem;
+    line-height: 2.2rem;
     box-sizing: border-box;
     padding-left: 9%;
     background: url(../img/icon_qq.png) no-repeat 30%;
     background-color: #fff;
-    background-size: 1rem 1.6rem;
+    background-size: 2rem 2.2rem;
     float: left;
 }
 
@@ -240,7 +245,7 @@
     border: 1px solid gray;
 }
 .yanNum{
-    width: 65%;
+    width: 62%;
     height: 0.3rem;
     border: 2px solid red;
     box-sizing: border-box;
@@ -252,7 +257,7 @@
 .yanzhengNum{
     width: 100%;
     height: 1.6rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     box-sizing: border-box;
     border: none;
     outline: none;
@@ -260,12 +265,12 @@
     bottom: 0;
 }
 .gainYan{
-    width: 40%;
-    height: 1.6rem;
+    width: 46%;
+    height: 2rem;
     border-radius: 20px 20px 20px 20px;
     background-color: #f56177;
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
     outline: none;
     border: none;
@@ -291,7 +296,7 @@
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     border: none;
     outline: none;
 }
@@ -302,29 +307,43 @@
 }
 .registerBtn{
     width: 100%;
-    height: 1.6rem;
+    height: 2.4rem;
     background-color: #f56177;
     border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
     margin-top: 4%;
     outline: none;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #fff;
 }
 
+
 /*找回密码页面*/
+.onlymy{
+    font-size: 1.8rem;
+}
+.login-navPhoto a img:nth-child(1){
+    height: 2.2rem;
+    left: 2%;
+}
+.login-navPhoto a img:nth-child(2){
+    height: 3rem;
+    top: 20%;
+    left: 7%;
+}
 .back-bg{
     width: 100%;
-    height: 6rem;
+    height: 7rem;
     box-sizing: border-box;
     position: relative;
     background-color: #e7e7e7;
 }
 .back-bg img:nth-child(1){
-    width: 100%;
-    height: 3.5rem;
+    width: 86%;
+    height: 4.6rem;
     position: absolute;
-    top: 24%;
+    top: 20%;
+    left: 6%;
 }
 .yanshouji{
     width: 96%;
@@ -335,12 +354,12 @@
     float: left;
     position: relative;
     left: 2%;
-    top: 2.5rem;
+    top: 3.8rem;
 }
 .shoujiIn{
     width: 100%;
     height: 1.6rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     box-sizing: border-box;
     border: none;
     outline: none;
@@ -350,11 +369,11 @@
 }
 .huoquma{
     width: 96%;
-    height: 1.6rem;
+    height: 2.4rem;
     position: relative;
-    top: 4rem;
+    top: 7rem;
     left: 2%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #fff;
     border: none;
     outline: none;

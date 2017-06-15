@@ -13,17 +13,7 @@
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <link rel="stylesheet" type="text/css" href="css/login.css">
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script>
-     /* 长宽占位 rem算法, 根据root的rem来计算各元素相对rem, 默认html 320/20 = 16px */
-     function placeholderPic(){
-      var w = document.documentElement.offsetWidth;
-      document.documentElement.style.fontSize=w/50+'px';
-     }
-     placeholderPic();
-     window.onresize=function(){
-      placeholderPic();
-     }
-  </script>
+    <script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
    <div class="login">
@@ -70,10 +60,8 @@
    </div>
 
 
-   <div style="width:100%;height:100px;"></div>
-
    <!-- 注册页面 -->
-   <div class="login">
+   <!-- <div class="login">
       <div class="login-title">
           <div class="login-navPhoto">
             <a href="">
@@ -85,9 +73,9 @@
       </div>
       <div class="login-bg">
         <img src="img/user_top_bg.jpg">
-      </div>
+      </div> -->
         <!-- 注册输入 -->
-      <div class="register">
+      <!-- <div class="register">
         <div class="register_input">
           <div class="yanNum">
             <input type="text" placeholder="接受验证码的手机号" class="yanzhengNum">
@@ -102,13 +90,12 @@
         </div>
         <input type="button" value="注册" class="registerBtn">
       </div>
-  </div>
+  </div> -->
 
 
 
-    <div style="width:100%;height:100px;"></div>
     <!-- 找回密码页面 -->
-  <div class="login">
+  <!-- <div class="login">
       <div class="login-title">
           <div class="login-navPhoto">
             <a href="">
@@ -125,7 +112,7 @@
         <input type="text" placeholder="请输入获取验证码的手机号" class="shoujiIn">
       </div>
       <input type="button" value="获取验证码" class="huoquma">
-  </div>
+  </div> -->
     
      
     
