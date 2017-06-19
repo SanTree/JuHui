@@ -148,15 +148,15 @@
 /*忘记密码*/
 .wangji{
     width: 90%;
-    height: 0.6rem;
+    height: 1.2rem;
     float: left;
     position: relative;
     top: 1.4rem;
     left: 5%;
 }
 .wangji a{
-    width: 100%;
     height: 1.2rem;
+    display: block;
     text-decoration: none;
     line-height: 1.2rem;
     float: right;
@@ -164,6 +164,7 @@
     color: gray;
     font-size: 1.2rem;
     font-weight: bold;
+    outline: none;
 }
 /*一键注册*/
 .allRegist{

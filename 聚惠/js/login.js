@@ -90,7 +90,8 @@ $(function(){
 		                                                   alert("两次输入密码不一致，请重新输入");
 		                                				}else{
 		                                					alert("更改密码成功！");
-		                                					// document.location.href="login.html";
+		                                					//更改密码成功后，跳转到登录页面的拼接方式要和注册一样
+		                                					window.location.href="login.html?un="+$(".shenum").val()+"&pwd="+$(".shemima").val();
 		                                				}
 
 		                                			}   
